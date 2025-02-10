@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { UserInfoService } from '../../user-info.service';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-user-info',
   standalone: true,
-  imports: [],
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './user-info.component.html',
   styleUrl: './user-info.component.scss'
 })
