@@ -1,6 +1,22 @@
-<div>
-<p id="city">Place: {{ city }}</p>
-<p id="state">State: {{ state }}</p> 
-<p id="tempF">Temperature(f): {{ temp }}</p>
-<p id="shortForecast">Current Forescast: {{ description }}</p>
+<div class = "box">
+
+    <div class = "content">
+        <p id="city"><strong>City:</strong> </p>
+        {{ city }}
+    </div>
+    
+    <div class = "content">
+        <p id="state"><strong>State:</strong> {{ state }}</p> 
+    </div>
+
+
+    <div class = "content">
+        <p id="tempF"><strong>Temperature(f):</strong> {{ temp }}</p>
+    </div>
+    
+    <div class = "content">
+        <p id="shortForecast"><strong>Current Forescast:</strong> {{ description }}</p>
+    </div>
+
+
 </div>

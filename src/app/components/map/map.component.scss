@@ -1,1 +1,16 @@
 
+.box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: black;
+    border-style: solid;
+}
+
+.content {
+    width: 25%;
+    border-left: solid;
+    flex-direction: column;
+    
+}
+
