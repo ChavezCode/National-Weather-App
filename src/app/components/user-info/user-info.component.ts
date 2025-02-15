@@ -60,13 +60,5 @@ export class UserInfoComponent {
     messageHolder.innerHTML = validStateMessage;
   }
 
-  // If both inputs are valid, update view
-
-  // searchForecast() {
-  //   if (this.validCityMessage == 'Valid input' && this.validStateMessage == "Valid input") {
-        
-  //     }
-  // }
-
   
 }

@@ -1,7 +1,6 @@
-import { AfterViewInit, Component, inject, Inject, OnInit, signal, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MapService } from '../../map.service';
 import { catchError } from 'rxjs';
-import { UserInfoComponent } from '../user-info/user-info.component';
 import { UserInfoService } from '../../user-info.service';
 
 @Component({

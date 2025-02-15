@@ -1,33 +1,37 @@
-<div class = "box">
+@if (city == '') {
 
-    <div class = "content">
-        <p id="city"><strong>City:</strong> </p>
-        <div class="infoText">
-            {{ city }}
+} @else {
+
+    <div class = "box">
+        <div class = "content">
+            <p id="city"><strong>City:</strong> </p>
+            <div class="infoText">
+                {{ city }}
+            </div>
         </div>
-    </div>
+        
+        <div class = "content">
+            <p id="state"><strong>State:</strong> </p>
+            <div class="infoText">
+                {{ state }} 
+            </div>
+        </div>
     
-    <div class = "content">
-        <p id="state"><strong>State:</strong> </p>
-        <div class="infoText">
-            {{ state }} 
-        </div>
-    </div>
-
-
-    <div class = "content">
-        <p id="tempF"><strong>Temperature(f):</strong> </p>
-        <div class="infoText">
-            {{ temp }}
-        </div>
-    </div>
     
-    <div class = "content">
-        <p id="shortForecast"><strong>Current Forescast:</strong></p>
-        <div class="infoText">
-            {{ description }}
+        <div class = "content">
+            <p id="tempF"><strong>Temperature(f):</strong> </p>
+            <div class="infoText">
+                {{ temp }}
+            </div>
         </div>
+        
+        <div class = "content">
+            <p id="shortForecast"><strong>Current Forescast:</strong></p>
+            <div class="infoText">
+                {{ description }}
+            </div>
+        </div>
+    
+    
     </div>
-
-
-</div>
+}

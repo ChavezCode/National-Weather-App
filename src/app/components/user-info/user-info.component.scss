@@ -6,6 +6,7 @@
     background: rgb(242, 244, 242, .6);
     border-color: black;
     border: solid;
+    padding: 8px;
 }
 .mainInfo {
     height: 50%;
@@ -16,5 +17,6 @@ form{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 20%;
+    width: auto;
 }
+
