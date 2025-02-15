@@ -1,36 +1,8 @@
 // /* You can add global styles to this file, and also import other style files */
-// .navigation {
-//     display: flex;
-//     justify-content: flex-end;
-//     flex-direction: row;
-// }
 
-// p {
-//     padding: 5px;
-// }
+body {
 
-// p:hover {
-//     color: blue;
-// }
-.header {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #F1EEEE;
-    color: #000005;
-    padding: 5px;
-}
-
-.navigation {
-    display: flex;
-}
-
-p {
-    padding: 5px;
-}
-
-nav:hover,
-h1:hover {
-    color: blue;
+    background-image: url('./app/components/header/weather.jpg');
+    // background-size: 100% auto;
+    background-repeat: no-repeat;
 }

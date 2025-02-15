@@ -1,26 +1,27 @@
 <div>Welcome to the National Weather Website!</div>
 <br>
 <router-outlet>
-<div>In this page, you will get the option to enter city/town and state information for anywhere in the United States of America, 
+<div class="mainInfo">In this page, you will get the option to enter city/town and state information for anywhere in the United States of America, 
     and you will be returned the Temperature (in Fahrenheit), as well as the description of what it currently looks like.
     If you would like to learn more, feel free to navigate to the <a href="/about">About page</a>, or feel free to contact me as well!</div>
 <br>
 </router-outlet>
-
-<form name="userForms" >
-    <strong>City:</strong>
-    <br>
-    <input type="text" id="city" name="city">
-    <a id="validCity"></a>
-    <br>
-    <br>
-    <strong>State:</strong>
-    <br>
-    <input type="text" id="state" name="state">
-    <a id="validState"></a>
-    <br>
-    <br>
-    <button type="button" id="submit" (click)="validCity()" (click)="validState()">Give me the weather!</button>
-</form>
+<div class="userInput">
+    <form name="userForms" >
+        <strong>City:</strong>
+        <br>
+        <input type="text" id="city" name="city">
+        <a id="validCity"></a>
+        <br>
+        <br>
+        <strong>State:</strong>
+        <br>
+        <input type="text" id="state" name="state">
+        <a id="validState"></a>
+        <br>
+        <br>
+        <button type="button" id="submit" (click)="validCity()" (click)="validState()">Give me the weather!</button>
+    </form>
+</div>
 <br>
 

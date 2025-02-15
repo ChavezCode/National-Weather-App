@@ -1,0 +1,20 @@
+.userInput {
+    display: flex;
+    justify-content: center;
+}
+.mainInfo, form {
+    background: rgb(242, 244, 242, .6);
+    border-color: black;
+    border: solid;
+}
+.mainInfo {
+    height: 50%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}

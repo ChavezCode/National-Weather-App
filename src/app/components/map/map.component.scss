@@ -5,12 +5,21 @@
     justify-content: center;
     border: black;
     border-style: solid;
+    width: 100%;
+    background: rgb(242, 244, 242, .6);
 }
 
 .content {
+    display: flex;
     width: 25%;
     border-left: solid;
+    align-items: center;
     flex-direction: column;
-    
+    padding: 10px;
 }
 
+
+
+.infoText {
+    color: blue;
+}

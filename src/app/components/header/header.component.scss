@@ -4,11 +4,13 @@
     justify-content: flex-end;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #F1EEEE;
     color: #000005;
     padding: 5px;
 }
 
+.background {
+    background: rgb(242, 244, 242, .6);
+}
 .navigation {
     display: flex;
 }
@@ -17,6 +19,7 @@ p {
     padding: 5px;
 }
 
-p:hover {
+p:hover, 
+h1:hover {
     color: blue;
 }
