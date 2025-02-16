@@ -1,7 +1,16 @@
 <app-header></app-header>
-<p>About Page</p>
-<div>Welcome to the National Weather Website!</div>
 <br>
-<div>In this page, you will get the option to enter city/town and state information for anywhere in the United States of America, 
-    and you will be returned the Temperature (in Fahrenheit), as well as the description of what it currently looks like.
-    If you would like to learn more, feel free to navigate to the About page, or feel free to contact me as well!</div>
+<div class="content">
+    <div class="mainInfo">
+        <h3>Information about the National Weather Web Application</h3>
+        The National Weather web application takes in city/town and state information and uses an OpenStreetMap API that converts the location of interest, 
+        into its latitudinal and longitudinal coordinates. After the coordinates have returned successfully for the given city/town and state, a National Weather Service API
+        is used, which requires coordinates, to return forecast data for the selected location. 
+        <br>
+        <br>
+        Note: The current version of this application only returns valid data for towns or cities. For example, beach towns are often categorized as 
+        'Beach' or 'Villages', hence the reason why searching up a place like 'Cannon Beach' in Oregon returns an invalid input statement. 
+        <br>
+    </div>
+</div>
+

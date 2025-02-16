@@ -1,15 +1,17 @@
 .userInput {
     display: flex;
     justify-content: center;
+    
 }
 .mainInfo, form {
-    background: rgb(242, 244, 242, .6);
     border-color: black;
     border: solid;
     padding: 8px;
+    background-color: #112A46;
+    color: #ACC8E5;
 }
 .mainInfo {
-    height: 50%;
+    max-width: 70ch;
 }
 
 form{
@@ -18,5 +20,18 @@ form{
     align-items: center;
     flex-direction: column;
     width: auto;
+    background-color: #112A46;
+    color: #ACC8E5;
 }
 
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: white;
+}

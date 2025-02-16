@@ -6,7 +6,8 @@
     border: black;
     border-style: solid;
     width: 100%;
-    background: rgb(242, 244, 242, .6);
+    background-color: #112A46;
+    color: #ACC8E5;
 }
 
 .content {
@@ -21,7 +22,7 @@
 
 
 .infoText {
-    color: blue;
+    color: #ACC8E5;
 }
 
 @media screen and (max-width: 800px) {
@@ -33,7 +34,8 @@
         border: black;
         border-style: solid;
         width: 100%;
-        background: rgb(242, 244, 242, .6);
+        background-color: #112A46;
+        color: #ACC8E5;
     }
     .content {
         display: flex;
@@ -42,6 +44,7 @@
         align-items: center;
         flex-direction: column;
         padding: 10px;
+        
     }
 
 }

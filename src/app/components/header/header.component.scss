@@ -4,12 +4,15 @@
     justify-content: flex-end;
     flex-direction: row;
     justify-content: space-between;
-    color: #000005;
+    align-items: center;
+    color: #ACC8E5;
     padding: 5px;
+    border: #ACC8E5;
+    border-style: solid;
 }
 
 .background {
-    background: rgb(242, 244, 242, .6);
+    background-color: #112A46;
 }
 .navigation {
     display: flex;
@@ -21,5 +24,28 @@ p {
 
 p:hover, 
 h1:hover {
-    color: blue;
+    color: white;
+    background-color: black;
+    padding: 2px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: #ACC8E5;
+        padding: 5px;
+        border: #ACC8E5;
+        border-style: solid;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
