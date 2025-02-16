@@ -13,7 +13,7 @@ Note: The current version of this application only returns valid data for towns 
 
 This application has three different pages, the about, contact and the main home page.
 
-<video src="src/app/WeatherAppNav.mp4" title="Navigation" width="200"></video>
+<video src="src/app/WeatherAppNav.mp4" title="Navigation" width=200>
 
 ## How to run this application:
 
