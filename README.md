@@ -11,10 +11,9 @@ Note: The current version of this application only returns valid data for towns 
 
 <video controls src="src/app/Beach.mp4" title="Title"></video>
 
-This application has three different pages, the about, contact and the main home page. 
+This application has three different pages, the about, contact and the main home page.
 
-<video controls src="src/app/WeatherAppNav.mp4" title="Navigation"></video>
-
+<video src="src/app/WeatherAppNav.mp4" title="Navigation" width="200"></video>
 
 ## How to run this application:
 
@@ -22,5 +21,3 @@ This application has three different pages, the about, contact and the main home
 2. Clone the repository by running `git clone https://github.com/ChavezCode/National-Weather-App.git` in your IDE terminal.
 3. Once the repo has been cloned, run `ng serve` in your terminal to run the application.
 4. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-
