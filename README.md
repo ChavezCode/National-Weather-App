@@ -20,3 +20,7 @@ This application has three different pages, the about, contact and the main home
 2. Clone the repository by running `git clone https://github.com/ChavezCode/National-Weather-App.git` in your IDE terminal.
 3. Once the repo has been cloned, run `ng serve` in your terminal to run the application.
 4. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+## You can visit the Weather Application here:
+http://myweatherbucket368.s3-website-us-west-2.amazonaws.com/
